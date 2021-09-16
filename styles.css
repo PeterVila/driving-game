@@ -3,11 +3,23 @@ body {
 }
 
 img {
-    width: 400px;
-    height: 400px;
-    transition: transform 1s;
+  width: 400px;
+  height: 400px;
+  transition: transform 1s;
 }
 
 .right {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.left {
+  transform: rotate(-90deg);
+}
+
+.up {
+  transform: rotate(0deg);
+}
+
+.down {
+  transform: rotate(180deg);
 }
