@@ -23,7 +23,7 @@ img {
 .down {
   transform: rotate(180deg);
 }
-
 .down-alternate {
     transform: rotate(-180deg);
 }
+
